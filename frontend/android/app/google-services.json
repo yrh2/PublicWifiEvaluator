@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "572995712688",
+    "project_id": "pwee-9c495",
+    "storage_bucket": "pwee-9c495.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572995712688:android:8f40acceed975da29f6d75",
+        "android_client_info": {
+          "package_name": "com.example.publicwifi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW2TJeH99kNRWJbyeplcvP5vkwjreM2ZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
