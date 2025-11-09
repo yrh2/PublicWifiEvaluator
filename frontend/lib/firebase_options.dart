@@ -41,8 +41,8 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCW2TJeH99kNRWJbyeplcvP5vkwjreM2ZU',
-    appId: '1:572995712688:web:8f40acceed975da29f6d75',
+    apiKey: 'YOUR_API_KEY',
+    appId: 'YOUR_APP_ID',
     messagingSenderId: '572995712688',
     projectId: 'pwee-9c495',
     authDomain: 'pwee-9c495.firebaseapp.com',
@@ -50,16 +50,16 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCW2TJeH99kNRWJbyeplcvP5vkwjreM2ZU',
-    appId: '1:572995712688:android:8f40acceed975da29f6d75',
+    apiKey: 'YOUR_API_KEY',
+    appId: 'YOUR_APP_ID',
     messagingSenderId: '572995712688',
     projectId: 'pwee-9c495',
     storageBucket: 'pwee-9c495.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCW2TJeH99kNRWJbyeplcvP5vkwjreM2ZU',
-    appId: '1:572995712688:ios:8f40acceed975da29f6d75',
+    apiKey: 'YOUR_API_KEY',
+    appId: 'YOUR_APP_ID',
     messagingSenderId: '572995712688',
     projectId: 'pwee-9c495',
     storageBucket: 'pwee-9c495.firebasestorage.app',
@@ -67,8 +67,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCW2TJeH99kNRWJbyeplcvP5vkwjreM2ZU',
-    appId: '1:572995712688:macos:8f40acceed975da29f6d75',
+    apiKey: 'YOUR_API_KEY',
+    appId: 'YOUR_APP_ID',
     messagingSenderId: '572995712688',
     projectId: 'pwee-9c495',
     storageBucket: 'pwee-9c495.firebasestorage.app',
@@ -76,11 +76,12 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCW2TJeH99kNRWJbyeplcvP5vkwjreM2ZU',
-    appId: '1:572995712688:windows:8f40acceed975da29f6d75',
+    apiKey: 'YOUR_API_KEY',
+    appId: 'YOUR_APP_ID',
     messagingSenderId: '572995712688',
     projectId: 'pwee-9c495',
     authDomain: 'pwee-9c495.firebaseapp.com',
     storageBucket: 'pwee-9c495.firebasestorage.app',
   );
 }
+
