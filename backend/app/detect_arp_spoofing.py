@@ -117,6 +117,7 @@ def detect_arp_spoofing():
             "gateway_mac": original_mac
         }
 
-# Optional: run standalone if you want to test directly
+# Optional: run standalone
 if __name__ == "__main__":
     print(detect_arp_spoofing())
+
