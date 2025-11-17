@@ -161,7 +161,7 @@ class WiFiInfo {
 
   factory WiFiInfo.currentNetworkMock() {
     // This would ideally get the actual current network info
-    // For now, let's use a more generic name
+   
     return WiFiInfo(
       ssid: 'Current Network',
       bssid: 'Connected',
@@ -183,3 +183,4 @@ class WiFiInfo {
     );
   }
 }
+
