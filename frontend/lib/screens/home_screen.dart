@@ -521,7 +521,8 @@ class _HomeScreenState extends State<HomeScreen> {
       print('Scan saved to history successfully');
     } catch (e) {
       print('Error saving scan to history: $e');
-      // Continue without saving - don't break the app flow
+      // Continue without saving
     }
   }
 }
+
