@@ -72,7 +72,7 @@ class ScanResultsScreen extends StatelessWidget {
             const Spacer(),
 
             // Bottom Navigation (same as home screen)
-            // You can remove this if you don't want it on this screen
+            
           ],
         ),
       ),
@@ -135,7 +135,7 @@ class ScanResultsScreen extends StatelessWidget {
     );
   }
 
-  // Helper methods to determine status
+  // Methods to determine status
   bool _isArpDetected() {
     final arpData = scanResults['arp_spoofing'];
     if (arpData is Map) {
@@ -187,7 +187,7 @@ String _getOpenPortsStatus() {
     final matches = regex.allMatches(raw);
 
     if (matches.isNotEmpty) {
-      // Ambil semua nombor port yang terbuka
+      // Open ports
       final openPorts = matches.map((m) => m.group(1)).join(', ');
       return 'Detected ($openPorts)';
     }
@@ -215,3 +215,4 @@ String _getOpenPortsStatus() {
     return _isRogueApDetected() ? 'Detected' : 'Not Detected';
   }
 }
+
