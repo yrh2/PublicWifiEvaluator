@@ -100,7 +100,7 @@ def get_wifi_info_macos():
                         # The SSID is usually on the next line after "Current Network Information:"
                         if i + 1 < len(lines):
                             next_line = lines[i + 1].strip()
-                            # Extract SSID name from line like "            shafiq_5GHz:"
+                            # Extract SSID name from line like "            Amoii_5GHz:"
                             ssid_match = re.search(r'^\s*([^:]+):', next_line)
                             if ssid_match:
                                 ssid_candidate = ssid_match.group(1).strip()
@@ -230,4 +230,5 @@ if __name__ == "__main__":
     wifi_info = get_wifi_info()
     print("\n📡 Current Wi-Fi Info:")
     print(json.dumps(wifi_info, indent=2))
+
 
